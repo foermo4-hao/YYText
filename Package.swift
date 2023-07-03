@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "YYText",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources/YYText"),
         .testTarget(
             name: "YYTextTests",
             dependencies: ["YYText"]),
